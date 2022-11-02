@@ -1,0 +1,6 @@
+transformers
+datasets
+nltk
+evaluate
+seqeval
+re
