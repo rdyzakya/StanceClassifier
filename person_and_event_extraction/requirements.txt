@@ -1,0 +1,7 @@
+transformers
+datasets
+evaluate
+seqeval
+pandas
+numpy
+nlp-id
