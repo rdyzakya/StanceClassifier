@@ -1406,8 +1406,6 @@ Salam	O
 Kompasiana	O
 .	O
 
- 	O
-
 Kata	O
 nya	O
 Ahok	B-PERSON
@@ -11919,8 +11917,6 @@ bahagia	O
 ala	O
 saya	O
 .	O
-
- 	O
 
 Keputusan	O
 Ahok	B-PERSON
@@ -27335,8 +27331,6 @@ di	O
 DKI	O
 Jakarta	O
 .	O
-
- 	O
 
 Pilgub	O
 DKI	O
@@ -50652,8 +50646,6 @@ nasionalisme	O
 nya	O
 Ahok	B-PERSON
 ?	O
-
- 	O
 
 Pilkada	O
 2017	O
@@ -142694,8 +142686,6 @@ Bangka	O
 Belitung	O
 .	O
 
- 	O
-
 Semangat	O
 Yusril	O
 Ihza	O
@@ -148017,8 +148007,6 @@ Wassallamah	O
 .	O
 .	O
 !	O
-
- 	O
 
 Perang	O
 urat	O

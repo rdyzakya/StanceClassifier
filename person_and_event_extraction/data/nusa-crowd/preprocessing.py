@@ -131,5 +131,8 @@ labels_index = {v: k for k, v in labels.items()}
 with open(output_path, "w") as f:
     for i in range(len(tokenized_dataset)):
         for j in range(len(tokenized_dataset[i]["tokens"])):
+            # remove token with only space and O tag
+            if tokenized_dataset[i]["tokens"][j].strip() != "" and tokenized_dataset[i]["bio_tags"][j] != 0:
+                continue
             f.write(f"{tokenized_dataset[i]['tokens'][j]}\t{labels_index[tokenized_dataset[i]['bio_tags'][j]]}\n")
         f.write("\n")

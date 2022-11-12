@@ -1,0 +1,14 @@
+python main.py \
+    --model_name_or_path indobenchmark/indobert-base-p1 \
+    --max_len 256 \
+    --training_args train_args.json \
+    --n_gpu 0 \
+    --do_train \
+    --do_eval \
+    --do_predict \
+    --pred_batch_size 16 \
+    --data_dir data \
+    --train "train" \
+    --dev "dev" \
+    --test "test" \
+    --output_dir output

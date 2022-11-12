@@ -1,8 +1,10 @@
 import evaluate
 import numpy as np
+import datasets
 
-def tokenize_and_align_labels(examples,tokenizer):
-    tokenized_inputs = tokenizer(examples["tokens"], truncation=True, is_split_into_words=True, max_length=256)
+
+def tokenize_and_align_labels(examples,tokenizer,encoding_args):
+    tokenized_inputs = tokenizer(examples["tokens"], **encoding_args)# truncation=True, is_split_into_words=True, max_length=256)
 
     labels = []
     for i, label in enumerate(examples["bio_tags"]):
@@ -48,15 +50,35 @@ def compute_metrics(p,label_list):
 
     results = metric.compute(predictions=true_predictions, references=true_labels)
     return results
-    # f1_person = results["person"]["f1"]
-    # f1_event = results["event"]["f1"]
-    # w_person = (1/results["person"]["number"]) / (1/results["person"]["number"] + 1/results["event"]["number"])
-    # w_event = (1/results["event"]["number"]) / (1/results["person"]["number"] + 1/results["event"]["number"])
-    # f1_weighted = f1_person * w_person + f1_event * w_event
-    # print(results)
-    # return {
-    #     "precision": results["overall_precision"],
-    #     "recall": results["overall_recall"],
-    #     "f1": f1_weighted, # results["overall_f1"],
-    #     "accuracy": results["overall_accuracy"],
-    # }
+
+def open_dataset(path,label_dict):
+    # the txt file is text with each line format is --> token\tlabel
+    # each text is separated by a blank line
+    paths = path.split(",")
+    # if not endswith .txt then add .txt
+    paths = [p if p.endswith(".txt") else p+".txt" for p in paths]
+    data = []
+    for path in paths:
+        with open(path,"r") as f:
+            text = f.read()
+            data.extend(text.split("\n\n"))
+    # remove blank lines
+    data = [d for d in data if d != ""]
+    data = [d.strip().split("\n") for d in data]
+    # the columns : tokens, bio_tags
+    dataset = {
+        "tokens" : [],
+        "bio_tags" : []
+    }
+    for d in data:
+        tokens = []
+        bio_tags = []
+        for line in d:
+            # print(line)
+            token, bio_tag = line.split("\t")
+            tokens.append(token)
+            bio_tags.append(label_dict[bio_tag])
+        dataset["tokens"].append(tokens)
+        dataset["bio_tags"].append(bio_tags)
+    
+    return datasets.Dataset.from_dict(dataset)
