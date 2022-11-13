@@ -128,10 +128,13 @@ def main():
     tokenizer = transformers.AutoTokenizer.from_pretrained(args.model_name_or_path)
     
     if args.do_train:
+        print("Loading train dataset")
         train_paths = [os.path.join(args.data_dir,p) for p in args.train.split(",")]
+        print("Loading dev dataset")
         eval_paths = [os.path.join(args.data_dir,p) for p in args.dev.split(",")]
         train_dataset = utils.open_dataset(train_paths,labels)
         eval_dataset = utils.open_dataset(eval_paths,labels)
+        print("Start training...")
         train(args,model,tokenizer,train_dataset,eval_dataset)
     if args.do_predict:
         test_paths = [os.path.join(args.data_dir,p) for p in args.test.split(",")]
