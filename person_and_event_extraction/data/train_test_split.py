@@ -9,6 +9,8 @@ def init_args():
     parser.add_argument('--file_name', type=str, default='data', help="seperated by comma")
     parser.add_argument('--output_dir', type=str, default='data')
     parser.add_argument('--train_ratio', type=float, default=0.8)
+    parser.add_argument("--test_ratio", type=float, default=0.2)
+    parser.add_argument("--with_val", action="store_true")
     return parser.parse_args()
 
 def get_strat(dataset):
@@ -33,10 +35,6 @@ def main():
         with open(os.path.join(args.data_dir,fname),'r',encoding="utf-8") as f:
             data = f.read().split("\n\n")
             data = [d.strip().split("\n") for d in data]
-            # data = [{
-            #     "tokens": [t.split("\t")[0] for t in d],
-            #     "bio_tags": [t.split("\t")[1] for t in d]
-            # } for d in data]
             for i_d in range(len(data)):
                 d = data[i_d]
                 tokens = []
@@ -53,22 +51,32 @@ def main():
                 }
 
             dataset.extend(data)
-    
-    strat = get_strat(dataset)
-
-    # split
-    train, test = train_test_split(dataset, train_size=args.train_ratio, stratify=strat, random_state=42)
 
     # write to output_dir
     if not os.path.exists(args.output_dir):
         os.makedirs(args.output_dir)
     
+    strat = get_strat(dataset)
+
+    # split
+    train, val_test = train_test_split(dataset, train_size=args.train_ratio, stratify=strat, random_state=42)
+
     with open(os.path.join(args.output_dir, 'train.txt'), 'w', encoding="utf-8") as f:
         for d in train:
             for token, tag in zip(d['tokens'], d['bio_tags']):
                 f.write(token + "\t" + tag + "\n")
             f.write("\n")
     
+    if args.with_val:
+        test, val = train_test_split(val_test, train_size=args.test_ratio, stratify=get_strat(val_test), random_state=42)
+        with open(os.path.join(args.output_dir, 'val.txt'), 'w', encoding="utf-8") as f:
+            for d in val:
+                for token, tag in zip(d['tokens'], d['bio_tags']):
+                    f.write(token + "\t" + tag + "\n")
+                f.write("\n")
+    else:
+        test = val_test
+
     with open(os.path.join(args.output_dir, 'test.txt'), 'w', encoding="utf-8") as f:
         for d in test:
             for token, tag in zip(d['tokens'], d['bio_tags']):
