@@ -141,5 +141,5 @@ def main():
         test_dataset = utils.open_dataset(test_paths,labels)
         predict(args,model,tokenizer,test_dataset)
 
-if "__name__" == "__main__":
+if __name__ == "__main__":
     main()
