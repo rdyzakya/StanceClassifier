@@ -44,7 +44,7 @@ def init_args():
     args = parser.parse_args()
     return args
 
-def train(args,model,tokenizer,train_dataset,eval_dataset):
+def train(args,model,tokenizer,train_dataset,eval_dataset,labels):
     encoding_args = {
         "max_length" : args.max_len,
         "padding" : True,
@@ -81,7 +81,7 @@ def train(args,model,tokenizer,train_dataset,eval_dataset):
         "args" : train_args,
         "train_dataset" : tokenized_dataset_train,
         "tokenizer" : tokenizer,
-        "compute_metrics" : utils.compute_metrics,
+        "compute_metrics" : lambda x :utils.compute_metrics(x,labels),
         "data_collator" : data_collator
     }
 
@@ -99,7 +99,7 @@ def train(args,model,tokenizer,train_dataset,eval_dataset):
     if trainer.is_world_process_zero():
         tokenizer.save_pretrained(args.output_dir)
 
-def predict(args,model,tokenizer,test_dataset):
+def predict(args,model,tokenizer,test_dataset,labels):
     encoding_args = {
         "max_length" : args.max_len,
         "padding" : True,
@@ -157,11 +157,11 @@ def main():
         train_dataset = utils.open_dataset(train_paths,labels)
         eval_dataset = utils.open_dataset(eval_paths,labels)
         print("Start training...")
-        train(args,model,tokenizer,train_dataset,eval_dataset)
+        train(args,model,tokenizer,train_dataset,eval_dataset,labels)
     if args.do_predict:
         test_paths = [os.path.join(args.data_dir,p) for p in args.test.split(",")]
         test_dataset = utils.open_dataset(test_paths,labels)
-        predict(args,model,tokenizer,test_dataset)
+        predict(args,model,tokenizer,test_dataset,labels)
 
 if __name__ == "__main__":
     main()
