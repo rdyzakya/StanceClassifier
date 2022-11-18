@@ -83,7 +83,7 @@ def train(args,model,tokenizer,train_dataset,eval_dataset,labels):
         "args" : train_args,
         "train_dataset" : tokenized_dataset_train,
         "tokenizer" : tokenizer,
-        "compute_metrics" : lambda x :utils.compute_metrics(x,labels),
+        "compute_metrics" : lambda x :utils.compute_metrics(x,label_list),
         "data_collator" : data_collator
     }
 
