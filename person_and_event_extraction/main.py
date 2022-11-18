@@ -47,7 +47,7 @@ def init_args():
 def train(args,model,tokenizer,train_dataset,eval_dataset,labels):
     encoding_args = {
         "max_length" : args.max_len,
-        "padding" : True,
+        "padding" : "max_length",
         "truncation" : True,
         "return_tensors" : "pt",
         "is_split_into_words" : True
@@ -104,7 +104,7 @@ def train(args,model,tokenizer,train_dataset,eval_dataset,labels):
 def predict(args,model,tokenizer,test_dataset,labels):
     encoding_args = {
         "max_length" : args.max_len,
-        "padding" : True,
+        "padding" : "max_length",
         "truncation" : True,
         "return_tensors" : "pt",
         "is_split_into_words" : True
@@ -116,7 +116,7 @@ def predict(args,model,tokenizer,test_dataset,labels):
 
     device = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("cpu")
 
-    tokenized_dataset = test_dataset.map(lambda x : utils.tokenize_and_align_labels(x,tokenizer,encoding_args),batched=True)
+    tokenized_dataset = test_dataset.map(lambda x : utils.tokenize_and_align_labels(x,tokenizer,encoding_args),batched=True,remove_columns=test_dataset.column_names)
 
     data_loader = torch.utils.data.DataLoader(
         tokenized_dataset,
@@ -128,16 +128,29 @@ def predict(args,model,tokenizer,test_dataset,labels):
         predictions = []
         for batch in tqdm(data_loader,desc="Predicting"):
             model.to(device)
-            batch = {k:v.to(device) for k,v in batch.items()}
+            for k in batch.keys():
+                for i_tensor in range(len(batch[k])):
+                    batch[k][i_tensor] = batch[k][i_tensor].numpy()
+                batch[k] = torch.tensor(batch[k]).to(device)
             outputs = model(**batch)
             logits = outputs.logits
             predictions.extend(torch.argmax(logits,dim=2).cpu().numpy().tolist())
     
-    predictions = [tokenizer.decode(p, **decoding_args) for p in predictions]
+    # predictions = [model.config.id2label[p] for p in predictions]
+    for i_pred in range(len(predictions)):
+        for j_pred in range(len(predictions[i_pred])):
+            predictions[i_pred][j_pred] = model.config.id2label[predictions[i_pred][j_pred]]
 
     # save predictions
     with open(os.path.join(args.output_dir,"predictions.txt"),"w") as f:
-        f.write("\n".join(predictions))
+        # f.write("\n".join(predictions))
+        for data, prediction in zip(test_dataset,predictions):
+            tokens = data["tokens"]
+            bio_tags = data["bio_tags"]
+
+            for token, bio_tag, pred in zip(tokens,bio_tags,prediction):
+                f.write(f"{token}\t{model.config.id2label[bio_tag]}\t{pred}\n")
+            f.write("\n")
 
 def main():
     args = init_args()
@@ -147,8 +160,15 @@ def main():
     with open(os.path.join(args.data_dir,"labels.txt"),"r") as f:
         labels = f.read().splitlines()
         labels = {l:i for i,l in enumerate(labels)}
+    
+    label2id = labels
+    id2label = {v:k for k,v in labels.items()}
+    num_labels = len(labels)
+    
+    if not os.path.exists(args.output_dir):
+        os.makedirs(args.output_dir)
 
-    model = transformers.AutoModelForTokenClassification.from_pretrained(args.model_name_or_path,num_labels=len(labels))
+    model = transformers.AutoModelForTokenClassification.from_pretrained(args.model_name_or_path,id2label=id2label,label2id=label2id,num_labels=num_labels)
     tokenizer = transformers.AutoTokenizer.from_pretrained(args.model_name_or_path)
     
     if args.do_train:
