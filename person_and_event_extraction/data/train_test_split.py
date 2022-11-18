@@ -30,13 +30,27 @@ def main():
 
     dataset = []
     for fname in file_names:
-        with open(fname,'r',encoding="utf-8") as f:
+        with open(os.path.join(args.data_dir,fname),'r',encoding="utf-8") as f:
             data = f.read().split("\n\n")
             data = [d.strip().split("\n") for d in data]
-            data = [{
-                "tokens": [t.split("\t")[0] for t in d],
-                "bio_tags": [t.split("\t")[1] for t in d]
-            } for d in data]
+            # data = [{
+            #     "tokens": [t.split("\t")[0] for t in d],
+            #     "bio_tags": [t.split("\t")[1] for t in d]
+            # } for d in data]
+            for i_d in range(len(data)):
+                d = data[i_d]
+                tokens = []
+                bio_tags = []
+                for i_t in range(len(d)):
+                    t = d[i_t]
+                    if t == "":
+                        continue
+                    tokens.append(t.split("\t")[0])
+                    bio_tags.append(t.split("\t")[1])
+                data[i_d] = {
+                    "tokens": tokens,
+                    "bio_tags": bio_tags
+                }
 
             dataset.extend(data)
     
