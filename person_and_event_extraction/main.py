@@ -45,6 +45,17 @@ def init_args():
     return args
 
 def train(args,model,tokenizer,train_dataset,eval_dataset):
+    encoding_args = {
+        "max_length" : args.max_len,
+        "padding" : True,
+        "truncation" : True,
+        "return_tensors" : "pt",
+        "is_split_into_words" : True
+    }
+
+    decoding_args = {
+        "skip_special_tokens" : True
+    }
 
     transformers.set_seed(args.random_state)
     
@@ -57,19 +68,29 @@ def train(args,model,tokenizer,train_dataset,eval_dataset):
         "do_predict" : args.do_predict
     })
 
+    tokenized_dataset_train = train_dataset.map(lambda x : utils.tokenize_and_align_labels(x,tokenizer,encoding_args),batched=True)
+    if args.do_eval:
+        tokenized_dataset_eval = eval_dataset.map(lambda x : utils.tokenize_and_align_labels(x,tokenizer,encoding_args),batched=True)
+
     data_collator = transformers.DataCollatorForTokenClassification(tokenizer)
 
     train_args = transformers.TrainingArguments(**train_args_dict)
 
-    trainer = transformers.Trainer(
-        model=model,
-        args=train_args,
-        train_dataset=train_dataset,
-        eval_dataset=eval_dataset,
-        tokenizer=tokenizer,
-        compute_metrics=utils.compute_metrics,
-        data_collator=data_collator
-    )
+    trainer_args = {
+        "model" : model,
+        "args" : train_args,
+        "train_dataset" : tokenized_dataset_train,
+        "tokenizer" : tokenizer,
+        "compute_metrics" : utils.compute_metrics,
+        "data_collator" : data_collator
+    }
+
+    if args.do_eval:
+        trainer_args.update({
+            "eval_dataset" : tokenized_dataset_eval
+        })
+
+    trainer = transformers.Trainer(**trainer_args)
 
     trainer.train()
 
@@ -83,7 +104,8 @@ def predict(args,model,tokenizer,test_dataset):
         "max_length" : args.max_len,
         "padding" : True,
         "truncation" : True,
-        "return_tensors" : "pt"
+        "return_tensors" : "pt",
+        "is_split_into_words" : True
     }
 
     decoding_args = {
@@ -92,7 +114,7 @@ def predict(args,model,tokenizer,test_dataset):
 
     device = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("cpu")
 
-    tokenized_dataset = utils.tokenize_and_align_labels(test_dataset,tokenizer,encoding_args)
+    tokenized_dataset = test_dataset.map(lambda x : utils.tokenize_and_align_labels(x,tokenizer,encoding_args),batched=True)
 
     data_loader = torch.utils.data.DataLoader(
         tokenized_dataset,
