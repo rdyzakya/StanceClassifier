@@ -53,8 +53,6 @@ def compute_metrics(p,label_list):
 
 def open_dataset(path,label_dict):
     # the txt file is text with each line format is --> token\tlabel
-    # each text is separated by a blank line
-    paths = path.split(",")
     # if not endswith .txt then add .txt
     paths = [p if p.endswith(".txt") else p+".txt" for p in paths]
     data = []
