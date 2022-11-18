@@ -1406,7 +1406,6 @@ Salam	O
 Kompasiana	O
 .	O
 
-
 Kata	O
 nya	O
 Ahok	B-PERSON
@@ -11918,7 +11917,6 @@ bahagia	O
 ala	O
 saya	O
 .	O
-
 
 Keputusan	O
 Ahok	B-PERSON
@@ -27333,7 +27331,6 @@ di	O
 DKI	O
 Jakarta	O
 .	O
-
 
 Pilgub	O
 DKI	O
@@ -50649,7 +50646,6 @@ nasionalisme	O
 nya	O
 Ahok	B-PERSON
 ?	O
-
 
 Pilkada	O
 2017	O
@@ -142690,7 +142686,6 @@ Bangka	O
 Belitung	O
 .	O
 
-
 Semangat	O
 Yusril	O
 Ihza	O
@@ -148013,7 +148008,6 @@ Wassallamah	O
 .	O
 !	O
 
-
 Perang	O
 urat	O
 syaraf	O
@@ -149086,8 +149080,8 @@ mempunyai	O
 dua	O
 capres	O
 untuk	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Mestinya	O
@@ -150894,8 +150888,8 @@ maju	O
 menjadi	O
 cawapres	O
 dalam	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 ini	O
 .	O
 Tetapi	O
@@ -154012,8 +154006,8 @@ salah	O
 satu	O
 kandidat	O
 dalam	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 mendatang	O
 ,	O
 sehingga	O
@@ -154042,8 +154036,8 @@ yang	O
 akan	O
 dicalonkan	O
 untuk	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 mendatang	O
 diyakini	O
 PDIP	O
@@ -154205,8 +154199,8 @@ satu	O
 calon	O
 kuat	O
 untuk	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 mendatang	O
 .	O
 
@@ -154264,8 +154258,8 @@ satu	O
 nya	O
 akan	O
 menjadi	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 mendatang	O
 .	O
 
@@ -155920,8 +155914,8 @@ Kedua	O
 kompetitor	O
 Jokowi	B-PERSON
 dalam	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 ini	O
 tidak	O
 ada	O
@@ -156145,8 +156139,8 @@ orang	O
 yang	O
 ingin	O
 menggagalkan	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Relawan	O
@@ -156222,8 +156216,8 @@ Jokowi	B-PERSON
 akan	O
 kalah	O
 dalam	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 yang	O
 akan	O
 datang	O
@@ -156779,8 +156773,8 @@ meneruskan	O
 fenomena	O
 Jokowi	B-PERSON
 di	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Sebagaimana	O
@@ -156806,8 +156800,8 @@ nya	O
 fenomena	O
 Jokowi	B-PERSON
 di	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Jokowi	B-PERSON
@@ -157489,8 +157483,8 @@ sebagai	O
 calon	O
 presiden	O
 menjelang	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 nampaknya	O
 cenderung	O
 wajar	O
@@ -157552,8 +157546,8 @@ saat	O
 ini	O
 untuk	O
 masa	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 belum	O
 mengeluarkan	O
 surat	O
@@ -157881,8 +157875,8 @@ diri	O
 menjadi	O
 capres	O
 pada	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 ,	O
 ybs	O
 ngotot	O
@@ -158095,8 +158089,8 @@ citra	O
 yang	O
 kemudian	O
 memenangkan	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 mendatang	O
 .	O
 
@@ -159015,8 +159009,8 @@ untuk	O
 maju	O
 ke	O
 arena	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 menuai	O
 kritikan	O
 tajam	O
@@ -159047,8 +159041,8 @@ maju	O
 dalam	O
 arena	O
 pertarungan	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 ini	O
 .	O
 
@@ -159265,8 +159259,8 @@ Jokowi	B-PERSON
 diyakinkan	O
 akan	O
 memenangkan	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 nanti	O
 .	O
 
@@ -159278,8 +159272,8 @@ akhirnya	O
 maju	O
 dalam	O
 pertarungan	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 ini	O
 .	O
 
@@ -159298,8 +159292,8 @@ hati	O
 rakyat	O
 dalam	O
 ajang	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 ini	O
 .	O
 
@@ -159430,8 +159424,8 @@ hehehehehehe	O
 .	O
 
 Untuk	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 nama	O
 Joko	O
 Widodo	O
@@ -159450,8 +159444,8 @@ menjadi	O
 calon	O
 Presiden	O
 pada	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Sehingga	O
@@ -159586,8 +159580,8 @@ sebagai	O
 calon	O
 Presiden	O
 pada	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Dari	O
@@ -159633,8 +159627,8 @@ menjadi	O
 Calon	O
 Presiden	O
 pada	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 ,	O
 membuktikan	O
 kalau	O
@@ -159850,8 +159844,8 @@ akan	O
 menjadi	O
 Capres	O
 pada	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 ,	O
 karena	O
 dia	O
@@ -159869,8 +159863,8 @@ Jokowi	B-PERSON
 menerima	O
 Pencapresannya	O
 pada	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Bukankah	O
@@ -159909,8 +159903,8 @@ capreskan	O
 sebagai	O
 Capres	O
 pada	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 ,	O
 sekalipun	O
 PDI	O
@@ -160160,8 +160154,8 @@ mengatakan	O
 posisi	O
 Jokowi	B-PERSON
 pada	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 sama	O
 dengan	O
 posisi	O
@@ -160191,8 +160185,8 @@ bila	O
 elektabilitas	O
 Jokowi	B-PERSON
 pada	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 ini	O
 sama	O
 dengan	O
@@ -160992,8 +160986,8 @@ genting	O
 menjelang	O
 Pilpres	O
 dan	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 ini	O
 .	O
 
@@ -161978,8 +161972,8 @@ sah	O
 masuk	O
 dalam	O
 bursa	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 nanti	O
 .	O
 
@@ -162010,8 +162004,8 @@ untuk	O
 masuk	O
 dalam	O
 bursa	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 nanti	O
 .	O
 
@@ -162102,8 +162096,8 @@ nya	O
 Jokowi	B-PERSON
 dalam	O
 bursa	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 ini	O
 ,	O
 ternyata	O
@@ -162440,8 +162434,8 @@ nya	O
 Jokowi	B-PERSON
 dalam	O
 bursa	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 ini	O
 adalah	O
 sebuah	O
@@ -162809,8 +162803,8 @@ mereka	O
 mampu	O
 menerawang	O
 hasil	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 walaupun	O
 pilpresnya	O
 sendiri	O
@@ -162864,8 +162858,8 @@ di	O
 Lereng	O
 gunung	O
 Ciremai	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 akan	O
 dimenangkan	O
 oleh	O
@@ -162928,8 +162922,8 @@ di	O
 Lereng	O
 gunung	O
 Merapi	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 akan	O
 dimenangkan	O
 oleh	O
@@ -163002,8 +162996,8 @@ di	O
 lereng	O
 gunung	O
 Sahari	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 akan	O
 dimenangkan	O
 oleh	O
@@ -163170,8 +163164,8 @@ terjang	O
 SBY	O
 dalam	O
 masa	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 ini	O
 untuk	O
 menentukan	O
@@ -163203,8 +163197,8 @@ petunjuk	O
 tentang	O
 kecenderungan	O
 pemenang	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 ini	O
 .	O
 
@@ -163455,8 +163449,8 @@ SBY	O
 tetap	O
 yakin	O
 pemenang	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 adalah	O
 Jokowi	B-PERSON
 .	O
@@ -164205,8 +164199,8 @@ langkah	O
 pak	O
 JOKOWI	B-PERSON
 di	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 semakin	O
 menjelang	O
 pilpres	O
@@ -164462,8 +164456,8 @@ diterima	O
 sekarang	O
 untuk	O
 maju	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Jokowi	B-PERSON
@@ -164542,8 +164536,8 @@ yang	O
 berbeda	O
 untuk	O
 maju	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 ,	O
 pastinya	O
 persaingan	O
@@ -164560,8 +164554,8 @@ bisa	O
 bersama	O
 untuk	O
 maju	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 sebagai	O
 calon	O
 Presiden	O
@@ -164619,8 +164613,8 @@ untuk	O
 melihat	O
 perjalanan	O
 panjang	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 ,	O
 maka	O
 kita	O
@@ -164632,8 +164626,8 @@ atau	O
 Jokowi	B-PERSON
 sebagai	O
 pemenang	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Dalam	O
@@ -165004,8 +164998,8 @@ Prabowo	O
 terbukti	O
 sebagai	O
 pemenang	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 Data	O
 dari	O
 berbagai	O
@@ -165243,8 +165237,8 @@ JOKO	O
 WIDODO-JUSUF	O
 KALLA	O
 DI	O
-PILPRES	O
-2014	O
+PILPRES	B-EVENT
+2014	I-EVENT
 
 Sebagai	O
 seorang	O
@@ -165381,8 +165375,8 @@ digadang-gadang	O
 akan	O
 nyapres	O
 di	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 bahkan	O
 dari	O
 berbagai	O
@@ -167402,8 +167396,8 @@ Jokowi	B-PERSON
 JK	O
 akan	O
 memenangkan	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 .	O
 bukan	O
 hanya	O
@@ -167560,8 +167554,8 @@ kedua	O
 kubu	O
 memantau	O
 jalan	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 .	O
 dan	O
 bisa	O
@@ -168349,8 +168343,8 @@ ke	O
 Pilkada	O
 DKI	O
 dan	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 ,	O
 karena	O
 ingin	O
@@ -168359,8 +168353,8 @@ Puan	O
 Maharani	O
 (	O
 dalam	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 )	O
 .	O
 
@@ -168513,8 +168507,8 @@ kesempatan	O
 Jokowi	B-PERSON
 Maju	O
 ke	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Selamat	O
@@ -169283,8 +169277,8 @@ bertema	O
 Kesiapan	O
 untuk	O
 Pemenangan	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 itu	O
 ,	O
 Surya	O
@@ -169997,8 +169991,8 @@ menjadi	O
 pendamping	O
 nya	O
 dalam	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Bagi	O
@@ -170354,8 +170348,8 @@ bisa	O
 )	O
 menang	O
 dalam	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 ,	O
 itu	O
 ada	O
@@ -170513,8 +170507,8 @@ pemilu	O
 
 Dalam	O
 konteks	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 ,	O
 pasangan	O
 Jokowi-JK	O
@@ -170825,8 +170819,8 @@ Jokowi	B-PERSON
 JK	O
 jika	O
 memenangkan	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 nanti	O
 .	O
 
@@ -170860,8 +170854,8 @@ menambah	O
 runyam	O
 nya	O
 suasana	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Penulis	O
@@ -170952,8 +170946,8 @@ isu	O
 sara	O
 dalam	O
 ajang	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 .	O
 Bermain	O
 lah	O
@@ -170989,8 +170983,8 @@ menggunakan	O
 isu	O
 sara	O
 dalam	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Sejarah	O
@@ -171354,8 +171348,8 @@ benar-benar	O
 men-Capreskan	O
 Jokowi	B-PERSON
 pada	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 nanti	O
 ,	O
 apa	O
@@ -171374,8 +171368,8 @@ maju	O
 menjadi	O
 Capres	O
 pada	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 yang	O
 akan	O
 datang	O
@@ -171462,8 +171456,8 @@ anak	O
 itu	O
 maju	O
 di	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 ,	O
 dia	O
 diprediksi	O
@@ -171503,8 +171497,8 @@ Jokowi	B-PERSON
 menjadi	O
 Capres	O
 pada	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 ,	O
 itu	O
 pun	O
@@ -172665,8 +172659,8 @@ Cawapres	O
 partai	O
 lain	O
 di	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Apalagi	O
@@ -172723,8 +172717,8 @@ akan	O
 ikut	O
 serta	O
 di	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Tapi	O
@@ -173828,8 +173822,8 @@ dibuktikan	O
 saat	O
 perhitungan	O
 suara	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 berakhir	O
 .	O
 
@@ -173860,8 +173854,8 @@ menolak	O
 di-capreskannya	O
 Jokowi	B-PERSON
 dalam	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Bagi	O
@@ -175096,8 +175090,8 @@ menjamin	O
 keikutsertaan	O
 Jokowi	B-PERSON
 dalam	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 ini	O
 ,	O
 tetapi	O
@@ -175260,8 +175254,8 @@ menjadi	O
 presiden	O
 RI	O
 pada	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 ini	O
 .	O
 
@@ -175951,8 +175945,8 @@ akal	O
 yang	O
 terjadi	O
 dalam	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 ini	O
 .	O
 
@@ -177053,8 +177047,8 @@ Ical	O
 Hatta	O
 bertaung	O
 di	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 nanti	O
 ,	O
 karena	O
@@ -178758,8 +178752,8 @@ start	O
 persiapan	O
 untuk	O
 menghadapi	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 .	O
 
 SBY	O
@@ -179510,8 +179504,8 @@ serentak	O
 2018	O
 dan	O
 juga	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 .	O
 
 Dalam	O
@@ -179723,8 +179717,8 @@ nya	O
 yang	O
 maju	O
 dalam	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 .	O
 
 Hal	O
@@ -179748,8 +179742,8 @@ mendampingi	O
 Jokowi	O
 maju	O
 dalam	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 ,	O
 Gibran	O
 mempersilakan	O
@@ -180888,8 +180882,8 @@ bertempur	O
 baik	O
 Pileg	O
 maupun	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 .	O
 
 Oleh	O
@@ -180908,8 +180902,8 @@ membentuk	O
 poros	O
 ketiga	O
 pada	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 mendatang	O
 .	O
 
@@ -181169,8 +181163,8 @@ melakukan	O
 komunikasi	O
 politik	O
 jelang	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 mendatang	O
 .	O
 
@@ -181329,8 +181323,8 @@ satu	O
 Cawapres	O
 potensial	O
 di	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 ,	O
 meski	O
 semua	O
@@ -181578,8 +181572,8 @@ sebagai	O
 calon	O
 presiden	O
 di	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 .	O
 
 Dibandingkan	O
@@ -182084,8 +182078,8 @@ menjadi	O
 pendamping	O
 Jokowi	O
 dalam	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 .	O
 
 Jika	O
@@ -183771,8 +183765,8 @@ menjadi	O
 kandidat	O
 Wapres	O
 pada	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 .	O
 .	O
 
@@ -183871,8 +183865,8 @@ kandidat	O
 pendamping	O
 Jokowi	O
 pada	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 ,	O
 jawaban	O
 mereka	O
@@ -184082,8 +184076,8 @@ menjadi	O
 Pendamping	O
 Jokowi	O
 pada	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 .	O
 
 Itu	O
@@ -184425,8 +184419,8 @@ saya	O
 
 Lebih	O
 baik	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 ini	O
 AHY	B-PERSON
 dukung	O
@@ -186165,8 +186159,8 @@ untuk	O
 AHY	B-PERSON
 maka	O
 rintangan	O
-pilpres	O
-2019	O
+pilpres	B-EVENT
+2019	I-EVENT
 akan	O
 mudah	O
 dilalui	O
@@ -186201,8 +186195,8 @@ akan	O
 maju	O
 di	O
 kontestasi	O
-pilpres	O
-2019	O
+pilpres	B-EVENT
+2019	I-EVENT
 .	O
 
 Walau	O
@@ -186850,8 +186844,8 @@ untuk	O
 bertarung	O
 di	O
 ajang	O
-pilpres	O
-2019	O
+pilpres	B-EVENT
+2019	I-EVENT
 .	O
 
 Saya	O
@@ -186952,8 +186946,8 @@ parpol	O
 untuk	O
 bertarung	O
 di	O
-pilpres	O
-2019	O
+pilpres	B-EVENT
+2019	I-EVENT
 .	O
 
 Lagi-lagi	O
@@ -187462,8 +187456,8 @@ akan	O
 saya	O
 sampaikan	O
 bahwa	O
-pilpres	O
-2019	O
+pilpres	B-EVENT
+2019	I-EVENT
 saya	O
 prediksi	O
 sebagai	O
@@ -188560,8 +188554,8 @@ dan	O
 selalu	O
 dikaitkan	O
 dengan	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 .	O
 .	O
 Nah	O
@@ -189399,8 +189393,8 @@ TGB	O
 dan	O
 AHY	B-PERSON
 dalam	O
-pilpres	O
-2019	O
+pilpres	B-EVENT
+2019	I-EVENT
 nanti	O
 ,	O
 dari	O
@@ -190947,8 +190941,8 @@ berpotensi	O
 mendampingi	O
 Jokowi	O
 dalam	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 .	O
 
 Ada	O
@@ -191790,8 +191784,8 @@ Indonesia	O
 
 Perbincangan	O
 tentang	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 yang	O
 terus	O
 menghangat	O
@@ -193978,8 +193972,8 @@ akan	O
 mendampingi	O
 Jokowi	O
 pada	O
-pilpres	O
-2019	O
+pilpres	B-EVENT
+2019	I-EVENT
 masih	O
 akan	O
 dibicarakan	O
@@ -194171,8 +194165,8 @@ yang	O
 mencoba	O
 untuk	O
 menerawang	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 .	O
 
 Wakil	O
@@ -194787,8 +194781,8 @@ presiden	O
 terpilih	O
 baru	O
 di	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 ,	O
 di	O
 luar	O
@@ -195445,8 +195439,8 @@ hari	O
 Begitu	O
 pun	O
 dengan	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 ,	O
 yang	O
 akan	O
@@ -196029,8 +196023,8 @@ Jkw	O
 -	O
 AHY	B-PERSON
 di	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 nanti	O
 .	O
 
@@ -196518,8 +196512,8 @@ sipil	O
 
 Jika	O
 saja	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 jauh	O
 dari	O
 black	O
@@ -196896,8 +196890,8 @@ banyak	O
 dicari	O
 dalam	O
 konstelasi	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 .	O
 
 Nama	O
@@ -198394,8 +198388,8 @@ secara	O
 langsung	O
 .	O
 
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 masih	O
 lama	O
 sekali	O
@@ -198583,8 +198577,8 @@ berpasangan	O
 Pak	O
 Jokowi	O
 pada	O
-pilpres	O
-2019	O
+pilpres	B-EVENT
+2019	I-EVENT
 nanti	O
 ,	O
 Biar	O
@@ -198635,8 +198629,8 @@ untuk	O
 mendampingi	O
 Jokowi	O
 di	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 .	O
 
 Nama	O
@@ -199219,8 +199213,8 @@ yang	O
 akan	O
 bertarung	O
 dalam	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 .	O
 
 Partai	O
@@ -199640,8 +199634,8 @@ ancang-ancang	O
 untuk	O
 maju	O
 dalam	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 ,	O
 tentu	O
 akan	O
@@ -200041,8 +200035,8 @@ tujuan	O
 akhirnya	O
 .	O
 
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 sudah	O
 menunggu	O
 dan	O
@@ -200467,8 +200461,8 @@ ayah	O
 AHY	B-PERSON
 Maju	O
 di	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 atau	O
 2024	O
 .	O
@@ -200480,8 +200474,8 @@ mendukung	O
 AHY	B-PERSON
 maju	O
 pada	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 ,	O
 tapi	O
 ada	O
@@ -200495,8 +200489,8 @@ Pilpres	O
 2024	O
 .	O
 
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 dianggap	O
 AHY	B-PERSON
 masih	O
@@ -200597,8 +200591,8 @@ jika	O
 AHY	B-PERSON
 maju	O
 di	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 dengan	O
 status	O
 sebagai	O
@@ -200854,8 +200848,8 @@ jelas	O
 sudah	O
 peta	O
 Politik	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 hanya	O
 akan	O
 terdiri	O
@@ -200915,8 +200909,8 @@ pihak	O
 jika	O
 pada	O
 akhirnya	O
-pilpres	O
-2019	O
+pilpres	B-EVENT
+2019	I-EVENT
 mendatang	O
 kembali	O
 diikuti	O
@@ -200970,8 +200964,8 @@ pilpres	O
 
 Dan	O
 pada	O
-pilpres	O
-2019	O
+pilpres	B-EVENT
+2019	I-EVENT
 kembali	O
 digunakan	O
 .	O
@@ -201108,8 +201102,8 @@ poros	O
 baru	O
 dalam	O
 pusaran	O
-pilpres	O
-2019	O
+pilpres	B-EVENT
+2019	I-EVENT
 mendatang	O
 .	O
 
@@ -201124,8 +201118,8 @@ juga	O
 diperhitungkan	O
 dalam	O
 bursa	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 .	O
 
 Akan	O
@@ -201690,8 +201684,8 @@ tersebut	O
 
 Karena	O
 pada	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 mendatang	O
 Calon	O
 Wakil	O
@@ -201699,8 +201693,8 @@ Presiden	O
 sangat	O
 menentukan	O
 pemenang	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 mendatang	O
 .	O
 
@@ -201766,8 +201760,8 @@ penentu	O
 terbesar	O
 kemenangan	O
 pada	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 mendatang	O
 .	O
 .	O
@@ -201836,8 +201830,8 @@ Maju	O
 Dampingi	O
 Prabowo	O
 Pada	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 ?	O
 .	O
 
@@ -202044,8 +202038,8 @@ Gerindra	O
 dan	O
 Demokrat	O
 pada	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 nanti	O
 .	O
 
@@ -202217,8 +202211,8 @@ yang	O
 terjadi	O
 maka	O
 pada	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 nanti	O
 hanya	O
 akan	O
@@ -202255,8 +202249,8 @@ dua	O
 pasangan	O
 calon	O
 pada	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 tetapi	O
 saya	O
 menduga	O
@@ -202288,8 +202282,8 @@ ke	O
 gelanggang	O
 pertarungan	O
 pada	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 mengingat	O
 elektabilitasnya	O
 di	O
@@ -202483,8 +202477,8 @@ pasangan	O
 nya	O
 nanti	O
 memenangkan	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 maka	O
 AHY	B-PERSON
 akan	O
@@ -203704,8 +203698,8 @@ untuk	O
 persiapan	O
 dalam	O
 pertarungan	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 mendatang	O
 .	O
 
@@ -203749,8 +203743,8 @@ kemungkinan	O
 AHY	B-PERSON
 maju	O
 di	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 ,	O
 jika	O
 itu	O
@@ -207160,8 +207154,8 @@ berbicara	O
 tentang	O
 peluang	O
 pada	O
-Pilpres	O
-2019	O
+Pilpres	B-EVENT
+2019	I-EVENT
 ,	O
 peluang	O
 AHY	B-PERSON
@@ -208902,8 +208896,8 @@ menjadi	O
 jalan	O
 terbuka	O
 menuju	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 2018	O
 nanti	O
 .	O
@@ -209362,8 +209356,8 @@ untuk	O
 maju	O
 sebagai	O
 kandidat	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 2018	O
 nanti	O
 .	O
@@ -211393,8 +211387,8 @@ selama	O
 lima	O
 tahun	O
 karena	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 digelar	O
 di	O
 akhir	O
@@ -211649,8 +211643,8 @@ hanya	O
 menjadi	O
 penggembira	O
 pada	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 2013	O
 .	O
 
@@ -212012,8 +212006,8 @@ kader	O
 Terlebih	O
 pada	O
 kontestasi	O
-PIlgub	O
-Jabar	O
+PIlgub	B-EVENT
+Jabar	I-EVENT
 2018	O
 ,	O
 PDIP	O
@@ -213123,8 +213117,8 @@ Langkah	O
 Ridwan	B-PERSON
 Kamil	I-PERSON
 dalam	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 2018	O
 .	O
 
@@ -214755,8 +214749,8 @@ Nasdem	O
 ,	O
 di	O
 gelaran	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 tahun	O
 depan	O
 .	O
@@ -214888,8 +214882,8 @@ Nasdem	O
 untuk	O
 maju	O
 di	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 2018	O
 .	O
 
@@ -218156,8 +218150,8 @@ di	O
 tempat	O
 lain	O
 khususnya	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 .	O
 
 Apalagi	O
@@ -218476,8 +218470,8 @@ facebook	O
 Menjelang	O
 Pilkada	O
 -	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 2018	O
 kabar	O
 nya	O
@@ -220084,8 +220078,8 @@ gubernur	O
 terkuat	O
 dalam	O
 perhelatan	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 2018	O
 kini	O
 semakin	O
@@ -220095,8 +220089,8 @@ melemah	O
 Bisa	O
 dibilang	O
 ,	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 2018	O
 sudah	O
 bukan	O
@@ -220946,8 +220940,8 @@ merupakan	O
 calon	O
 terkuat	O
 di	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 ,	O
 untuk	O
 itu	O
@@ -221084,8 +221078,8 @@ Karsoma	O
 mendukung	O
 RK	O
 di	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 karena	O
 beliau	O
 sudah	O
@@ -221246,8 +221240,8 @@ Diakui	O
 atau	O
 tidak	O
 ,	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 2018	O
 sudah	O
 bukan	O
@@ -221507,8 +221501,8 @@ PDIP	O
 beruntung	O
 sebab	O
 untuk	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 2018	O
 ,	O
 partai	O
@@ -221537,8 +221531,8 @@ tidak	O
 ,	O
 saat	O
 ini	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 2018	O
 telah	O
 menjadi	O
@@ -221731,8 +221725,8 @@ dituliskan	O
 dalam	O
 artikel	O
 "	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 :	O
 Seperti	O
 Dewi	O
@@ -223288,8 +223282,8 @@ berkoalisi	O
 dengan	O
 Golkar	O
 dalam	O
-pilgub	O
-Jabar	O
+pilgub	B-EVENT
+Jabar	I-EVENT
 .	O
 
 Namun	O
@@ -224081,8 +224075,8 @@ sedikit	O
 tidak	O
 menarik	O
 kalau	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 2018	O
 tanpa	O
 ada	O
@@ -224107,8 +224101,8 @@ Gugur	O
 nya	O
 Emil	O
 di	O
-pilgub	O
-Jabar	O
+pilgub	B-EVENT
+Jabar	I-EVENT
 2018	O
 adalah	O
 kemenangan	O
@@ -224261,8 +224255,8 @@ berniat	O
 maju	O
 dalam	O
 kontestasi	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 2018	O
 .	O
 
@@ -224625,8 +224619,8 @@ dalam	O
 perhelatan	O
 politik	O
 menjelang	O
-pilgub	O
-Jabar	O
+pilgub	B-EVENT
+Jabar	I-EVENT
 tahun	O
 2018	O
 mendatang	O
@@ -225076,8 +225070,8 @@ Kamil	I-PERSON
 untuk	O
 maju	O
 pada	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 2018	O
 .	O
 
@@ -225423,8 +225417,8 @@ Kamil	I-PERSON
 bila	O
 ia	O
 menjadikan	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 sebagai	O
 batu	O
 loncatan	O
@@ -227230,8 +227224,8 @@ untuk	O
 mendulang	O
 kemenangan	O
 di	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 .	O
 
 Tentu	O
@@ -227792,8 +227786,8 @@ Kamil	I-PERSON
 Prediksi	O
 Rekomendasi	O
 Golkar	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 Akan	O
 Ditinjau	O
 Ulang	O
@@ -230536,8 +230530,8 @@ Mereka	O
 mulai	O
 berambisi	O
 mentarget	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 tahun	O
 depan	O
 .	O
@@ -232816,8 +232810,8 @@ Kamil	I-PERSON
 paling	O
 mendominasi	O
 dalam	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 .	O
 
 Bukan	O
@@ -233507,8 +233501,8 @@ pengusung	O
 Ridwan	B-PERSON
 Kamil	I-PERSON
 untuk	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 tahun	O
 2018	O
 mendatang	O
@@ -233630,8 +233624,8 @@ Muttaqien	O
 untuk	O
 bertarung	O
 di	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 .	O
 
 Ironis	O
@@ -234189,8 +234183,8 @@ juga	O
 merupakan	O
 kandidat	O
 di	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 2018	O
 .	O
 .	O
@@ -236566,8 +236560,8 @@ dengan	O
 Daniel	O
 Muttaqin	O
 pada	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 nanti	O
 .	O
 
@@ -236895,8 +236889,8 @@ untuk	O
 diusung	O
 nanti	O
 pada	O
-pilgub	O
-Jabar	O
+pilgub	B-EVENT
+Jabar	I-EVENT
 .	O
 
 Ditengah	O
@@ -237954,8 +237948,8 @@ bisa	O
 dipastikan	O
 dapat	O
 memenangi	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 2018	O
 .	O
 
@@ -238172,8 +238166,8 @@ membantu	O
 memenangkan	O
 nya	O
 dalam	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 ,	O
 apakah	O
 Ridwan	O
@@ -239885,8 +239879,8 @@ nya	O
 .	O
 padahal	O
 dalam	O
-Pilgub	O
-Jabar	O
+Pilgub	B-EVENT
+Jabar	I-EVENT
 sendiri	O
 sudah	O
 beberapa	O
@@ -241445,8 +241439,8 @@ menjadi	O
 presiden	O
 terpilih	O
 dalam	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Prabowo	B-PERSON
@@ -241454,8 +241448,8 @@ Subianto	O
 pun	O
 kalah	O
 dalam	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Padahal	O
@@ -241470,8 +241464,8 @@ televisi	O
 Bahkan	O
 pada	O
 masa	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 pun	O
 Prabowo	B-PERSON
 ,	O
@@ -241910,8 +241904,8 @@ terpanas	O
 pasca	O
 reformasi	O
 ,	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 pun	O
 menjadi	O
 ajang	O
@@ -241995,8 +241989,8 @@ presiden	O
 lain	O
 menjelang	O
 pelaksanaan	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Melalui	O
@@ -242118,8 +242112,8 @@ dan	O
 siap	O
 menang	O
 dalam	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Selain	O
@@ -246580,8 +246574,8 @@ dan	O
 perjalanan	O
 demokrasi	O
 dalam	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 mengalami	O
 ciderai	O
 yang	O
@@ -260093,8 +260087,8 @@ maju	O
 sebagai	O
 capres	O
 pada	O
-pilpres	O
-2014	O
+pilpres	B-EVENT
+2014	I-EVENT
 ,	O
 menginggat	O
 SBY	O
@@ -260140,8 +260134,8 @@ menjadi	O
 Calon	O
 Presiden	O
 pada	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 mendatang	O
 .	O
 
@@ -260249,8 +260243,8 @@ untuk	O
 mengusung	O
 Jokowi	O
 Pada	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 mendatang	O
 ,	O
 ketimbang	O
@@ -260259,8 +260253,8 @@ Prabowo	B-PERSON
 sebagai	O
 capres	O
 pada	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 mendatang	O
 .	O
 
@@ -260270,8 +260264,8 @@ saja	O
 Jokowi	O
 maju	O
 pada	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 bersama	O
 Jusuf	O
 Kalla	O
@@ -260323,8 +260317,8 @@ gentar	O
 untuk	O
 maju	O
 pada	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 ,	O
 meskipun	O
 lawan	O
@@ -260350,8 +260344,8 @@ lawan	O
 politik	O
 nya	O
 pada	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Dengan	O
@@ -260488,8 +260482,8 @@ saya	O
 
 Disaat	O
 Kampanye	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 mulai	O
 bergelora	O
 pak	O
@@ -260549,8 +260543,8 @@ Prabowo	B-PERSON
 atas	O
 Jokowi	O
 Pada	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 .	O
 
 Dan	O
@@ -260823,8 +260817,8 @@ Anies	O
 Baswedan	O
 yang	O
 pada	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 lalu	O
 menjadi	O
 Juru	O
@@ -261143,8 +261137,8 @@ kita	O
 ketahui	O
 ,	O
 pada	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 lalu	O
 ,	O
 Anies	O
@@ -261162,8 +261156,8 @@ meragukan	O
 visi-misi	O
 Prabowo	B-PERSON
 pada	O
-Pilpres	O
-2014	O
+Pilpres	B-EVENT
+2014	I-EVENT
 lalu	O
 .	O
 
@@ -262335,8 +262329,8 @@ bersemangat	O
 padahal	O
 kalah	O
 dalam	O
-PilPres	O
-2014	O
+PilPres	B-EVENT
+2014	I-EVENT
 itu	O
 lah	O
 Prabowo	B-PERSON
@@ -262363,8 +262357,8 @@ hal	O
 tersebut	O
 dipersatukan	O
 dalam	O
-PilPres	O
-2014	O
+PilPres	B-EVENT
+2014	I-EVENT
 dengan	O
 hasil	O
 kalah	O
@@ -262592,8 +262586,8 @@ ujaran	O
 kebencian	O
 .	O
 Dalam	O
-PilPres	O
-2014	O
+PilPres	B-EVENT
+2014	I-EVENT
 .	O
 Kabupaten	O
 Konawe	O

@@ -1,0 +1,1 @@
+https://github.com/yusufsyaifudin/indonesia-ner/blob/master/resources/ner/data_train.txt
