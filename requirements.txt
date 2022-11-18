@@ -3,4 +3,6 @@ datasets
 nltk
 evaluate
 seqeval
-re
+pandas
+numpy
+nlp-id

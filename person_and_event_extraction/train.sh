@@ -1,4 +1,4 @@
-python main.py \
+CUDA_VISIBLE_DEVICES=0 python main.py \
     --model_name_or_path indobenchmark/indobert-base-p1 \
     --max_len 256 \
     --training_args train_args.json \
@@ -7,8 +7,8 @@ python main.py \
     --do_eval \
     --do_predict \
     --pred_batch_size 16 \
-    --data_dir data \
+    --data_dir data/combine \
     --train "train" \
-    --dev "dev" \
+    --dev "val" \
     --test "test" \
     --output_dir output
