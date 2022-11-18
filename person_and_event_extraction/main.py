@@ -76,6 +76,8 @@ def train(args,model,tokenizer,train_dataset,eval_dataset,labels):
 
     train_args = transformers.TrainingArguments(**train_args_dict)
 
+    label_list = [k for k,v in labels.items()]
+
     trainer_args = {
         "model" : model,
         "args" : train_args,
