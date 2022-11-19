@@ -44,7 +44,7 @@ def init_args():
     args = parser.parse_args()
     return args
 
-def train(args,model,tokenizer,train_dataset,eval_dataset,labels):
+def train(args,model,tokenizer,train_dataset,eval_dataset):
     encoding_args = {
         "max_length" : args.max_len,
         "padding" : "max_length",
@@ -76,14 +76,12 @@ def train(args,model,tokenizer,train_dataset,eval_dataset,labels):
 
     train_args = transformers.TrainingArguments(**train_args_dict)
 
-    label_list = [k for k,v in labels.items()]
-
     trainer_args = {
         "model" : model,
         "args" : train_args,
         "train_dataset" : tokenized_dataset_train,
         "tokenizer" : tokenizer,
-        "compute_metrics" : lambda x :utils.compute_metrics(x,label_list),
+        "compute_metrics" : lambda x :utils.compute_metrics(x,model.config.id2label),
         "data_collator" : data_collator
     }
 
@@ -101,7 +99,7 @@ def train(args,model,tokenizer,train_dataset,eval_dataset,labels):
     if trainer.is_world_process_zero():
         tokenizer.save_pretrained(args.output_dir)
 
-def predict(args,model,tokenizer,test_dataset,labels):
+def predict(args,model,tokenizer,test_dataset):
     encoding_args = {
         "max_length" : args.max_len,
         "padding" : "max_length",
@@ -179,11 +177,11 @@ def main():
         train_dataset = utils.open_dataset(train_paths,labels)
         eval_dataset = utils.open_dataset(eval_paths,labels)
         print("Start training...")
-        train(args,model,tokenizer,train_dataset,eval_dataset,labels)
+        train(args,model,tokenizer,train_dataset,eval_dataset)
     if args.do_predict:
         test_paths = [os.path.join(args.data_dir,p) for p in args.test.split(",")]
         test_dataset = utils.open_dataset(test_paths,labels)
-        predict(args,model,tokenizer,test_dataset,labels)
+        predict(args,model,tokenizer,test_dataset)
 
 if __name__ == "__main__":
     main()

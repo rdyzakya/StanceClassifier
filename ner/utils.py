@@ -25,26 +25,26 @@ def tokenize_and_align_labels(examples,tokenizer,encoding_args):
     return tokenized_inputs
 
 metric = evaluate.load("seqeval")
-def compute_metrics(p,label_list):
+def compute_metrics(p,id2label):
 
-    classes = label_list.copy()
-    # remove O
-    classes.remove("O")
-    # remove the "B-" and "I-" prefixes
-    classes = [c[2:] for c in classes]
-    # remove duplicates
-    classes = list(set(classes))
+    # classes = label_list.copy()
+    # # remove O
+    # classes.remove("O")
+    # # remove the "B-" and "I-" prefixes
+    # classes = [c[2:] for c in classes]
+    # # remove duplicates
+    # classes = list(set(classes))
 
     predictions, labels = p
     predictions = np.argmax(predictions, axis=2)
 
     # Remove ignored index (special tokens)
     true_predictions = [
-        [label_list[p] for (p, l) in zip(prediction, label) if l != -100]
+        [id2label[p] for (p, l) in zip(prediction, label) if l != -100]
         for prediction, label in zip(predictions, labels)
     ]
     true_labels = [
-        [label_list[l] for (p, l) in zip(prediction, label) if l != -100]
+        [id2label[l] for (p, l) in zip(prediction, label) if l != -100]
         for prediction, label in zip(predictions, labels)
     ]
 
