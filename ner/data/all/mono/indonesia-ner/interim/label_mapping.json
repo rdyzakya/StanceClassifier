@@ -1,0 +1,13 @@
+{
+    "B-LOCATION" : "B-LOC",
+    "B-ORGANIZATION" : "B-ORG",
+    "B-PERSON" : "B-PER",
+    "B-QUANTITY" : "O",
+    "B-TIME" : "O",
+    "I-LOCATION" : "I-LOC",
+    "I-ORGANIZATION" : "I-ORG",
+    "I-PERSON" : "I-PER",
+    "I-QUANTITY" : "O",
+    "I-TIME" : "O",
+    "O" : "O"
+}

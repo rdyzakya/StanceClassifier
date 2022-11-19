@@ -1,0 +1,2 @@
+https://github.com/IndoNLP/indonlu/blob/master/dataset/nerp_ner-prosa
+https://github.com/IndoNLP/indonlu/blob/master/dataset/nergrit_ner-grit

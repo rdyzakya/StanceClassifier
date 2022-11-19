@@ -1,0 +1,9 @@
+{
+    "B-LOC" : "B-LOC",
+    "B-ORG" : "B-ORG",
+    "B-PER" : "B-PER",
+    "I-LOC" : "I-LOC",
+    "I-ORG" : "I-ORG",
+    "I-PER" : "I-PER",
+    "O" : "O"
+}

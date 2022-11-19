@@ -1,0 +1,19 @@
+{
+    "B-EVT" : "O",
+    "B-FNB" : "O",
+    "B-IND" : "O",
+    "B-ORGANISATION" : "B-ORG",
+    "B-PERSON" : "B-PER",
+    "B-PLACE" : "B-LOC",
+    "B-PLC" : "B-LOC",
+    "B-PPL" : "B-PER",
+    "I-EVT" : "O",
+    "I-FNB" : "O",
+    "I-IND" : "O",
+    "I-ORGANISATION" : "I-ORG",
+    "I-PERSON" : "I-PER",
+    "I-PLACE" : "I-LOC",
+    "I-PLC" : "I-LOC",
+    "I-PPL" : "I-PER",
+    "O" : "O"
+}

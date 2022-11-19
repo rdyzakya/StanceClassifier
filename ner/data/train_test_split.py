@@ -68,6 +68,7 @@ def main():
             f.write("\n")
     
     if args.with_val:
+        args.test_ration = args.test_ratio / (1 - args.train_ratio)
         test, val = train_test_split(val_test, train_size=args.test_ratio, stratify=get_strat(val_test), random_state=42)
         with open(os.path.join(args.output_dir, 'val.txt'), 'w', encoding="utf-8") as f:
             for d in val:
